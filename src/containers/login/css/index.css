@@ -1,0 +1,51 @@
+.profileCan {
+  background: #f2f5f4;
+  height: 12.46rem;
+  padding-top: 0.88rem;
+}
+.profile-pic {
+  padding: 1.6rem;
+  text-align: center;
+}
+.profile-pic img {
+  height: 0.45rem;
+  transform: translateY(0.1rem) scale(2);
+}
+.buttons {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 0 0.4rem;
+}
+.buttons div {
+  width: 6.7rem;
+  text-align: center;
+  font-size: 0.3rem;
+  margin-top: 0.5rem;
+}
+.buttons div:nth-child(1) {
+  border: 1px solid #b4282d;
+  height: 0.92rem;
+  background: #b4282d;
+  line-height: 0.92rem;
+}
+.buttons div:nth-child(1) i {
+  background-image: url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/sprites/login-s2d0d826858-b284a621da.png");
+}
+.buttons div:nth-child(2) {
+  border: 1px solid #b4282d;
+  height: 0.92rem;
+  line-height: 0.92rem;
+}
+footer {
+  position: absolute;
+/*这里的脱离的文档流就没有宽度了*/
+  text-align: center;
+  bottom: 1rem;
+  width: 100%;
+}
+footer span {
+  font-size: 0.3rem;
+  display: inline-block;
+  padding: 0 20px;
+}

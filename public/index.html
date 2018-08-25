@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/swiper.css">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_683704_ofdni70kyemqjjor.css">
+    <title>网易严选</title>
+
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
+
+    <script>
+        if ('addEventListener' in document) {
+            document.addEventListener('DOMContentLoaded', function() {
+                FastClick.attach(document.body);
+            }, false);
+        }
+        if(!window.Promise) {
+            document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+        }
+
+        //适配要弄清楚
+        (function (designWidth) {
+            let size =document.documentElement.clientWidth/(designWidth/100)
+            document.documentElement.style.fontSize=size + 'px';
+            document.body.style.fontSize=14+ 'px';
+        })(750)
+
+    </script>
+  </body>
+</html>

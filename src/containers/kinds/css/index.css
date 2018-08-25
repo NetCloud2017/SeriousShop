@@ -1,0 +1,39 @@
+.kindsWrap {
+  width: 7.5rem;
+  overflow: hidden;
+  padding-top: 0.88rem;
+}
+.kindsWrap .kindsCan {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow: hidden;
+  position: relative;
+}
+.kindsWrap .kindsCan .leftList {
+  width: 1.62rem;
+  height: 11.46rem;
+  overflow: hidden;
+  border-right: 0.001rem solid #e1e1e1;
+}
+.kindsWrap .kindsCan .leftList .oneNav {
+  text-align: center;
+  font-size: 0.3rem;
+  line-height: 0.5rem;
+  color: #333;
+  margin-top: 0.4rem;
+  overflow: hidden;
+  width: 1.61rem;
+  border-left: 0.05rem solid #fff;
+}
+.kindsWrap .kindsCan .leftList .on {
+  color: #b4282d;
+  border-left: 0.05rem solid #b4282d;
+}
+.kindsWrap .kindsCan .rightList {
+  padding: 0.3rem 0.3rem 0.21rem;
+  width: 5.27rem;
+  position: absolute;
+  left: 1.62rem;
+  height: 11.46rem;
+  overflow: hidden;
+}

@@ -1,0 +1,345 @@
+@media only screen and (-webkit-device-pixel-ratio: 2) {
+  .border-1px::before {
+    transform: scaleY(0.5);
+  }
+}
+@media only screen and (-webkit-device-pixel-ratio: 3) {
+  .border-1px::before {
+    transform: scaleY(0.333333);
+  }
+}
+.homeCan {
+  background: #f4f4f4;
+  width: 7.5rem;
+  overflow: hidden;
+  padding-top: 0.88rem;
+}
+.homeCan .home-nav {
+  width: 7.5rem;
+  overflow: hidden;
+  background: #fff;
+  color: #333;
+  position: fixed;
+  top: 0.87rem;
+  left: 0;
+  z-index: 99;
+}
+.homeCan .home-nav .navList {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+.homeCan .home-nav .navList li {
+  border-bottom: 1px solid #fff;
+  padding: 0 0.1rem;
+  margin: 0 0.27rem;
+  transition: all 0.5s;
+}
+.homeCan .home-nav .navList li span {
+  white-space: nowrap;
+  font-size: 0.3rem;
+  text-align: center;
+  line-height: 0.5rem;
+}
+.homeCan .home-nav .navList .on {
+  color: #b4282d;
+  border-bottom: 1px solid #b4282d;
+}
+.homeCan .scroll-pic {
+  width: 7.5rem;
+  height: 4rem;
+}
+.homeCan .scroll-pic .swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.homeCan .scroll-pic .swiper-container .swiper-wrapper {
+  width: 100%;
+  height: 100%;
+}
+.homeCan .scroll-pic .swiper-container .swiper-wrapper .swiper-slide .good_container {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0;
+}
+.homeCan .scroll-pic .swiper-container .swiper-wrapper .swiper-slide .good_container img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+.homeCan .scroll-pic .swiper-container .swiper-pagination {
+  width: 5rem;
+  height: 0.08rem;
+  left: 50%;
+  z-index: 88;
+  transform: translate(-2.5rem, 0);
+}
+.homeCan .scroll-pic .g-grow {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background: #fff;
+}
+.homeCan .scroll-pic .g-grow .item {
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.homeCan .scroll-pic .g-grow .item img {
+  width: 0.3rem;
+  vertical-align: middle;
+}
+.homeCan .scroll-pic .g-grow .item span {
+  font-size: 0.2rem;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.homeCan .directsupply {
+  margin-top: 1rem;
+  background: #fff;
+  padding: 0.1rem 0.1rem;
+}
+.homeCan .directsupply::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.homeCan .directsupply header {
+  text-align: center;
+  font-size: 0.35rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+}
+.homeCan .goodlist {
+  font-size: 0;
+}
+.homeCan .goodlist>div {
+  float: left;
+  width: 3.4rem;
+  height: 3rem;
+  padding: 0.1rem;
+  font-size: 0.3rem;
+}
+.homeCan .goodlist>div:nth-child(1) {
+  background: #f4f4f4 url("//yanxuan.nosdn.127.net/bcca932aeb9d818dcf6d3a4804f7311b.png") no-repeat;
+  background-size: 100%;
+  margin-right: 0.05rem;
+  margin-bottom: 0.05rem;
+}
+.homeCan .goodlist>div:nth-child(2) {
+  background: #f4f4f4 url("//yanxuan.nosdn.127.net/dd604acce92e61616a0fa2498cf0fd35.png") no-repeat;
+  background-size: 100%;
+  margin-bottom: 0.05rem;
+}
+.homeCan .goodlist>div:nth-child(3) {
+  background: #f4f4f4 url("//yanxuan.nosdn.127.net/f57d460dde6e737f2bacd9f67cb73a41.png") no-repeat;
+  background-size: 100%;
+  margin-right: 0.05rem;
+}
+.homeCan .goodlist>div:nth-child(4) {
+  background: #f4f4f4 url("//yanxuan.nosdn.127.net/52aa744559c6fc951e63f98229f36367.png") no-repeat;
+  background-size: 100%;
+}
+.homeCan .goodlist>div div {
+  margin-bottom: 10px;
+}
+.homeCan .firstOn,
+.homeCan .hotGoods {
+  margin-top: 10px;
+  background: #fff;
+}
+.homeCan .firstOn header,
+.homeCan .hotGoods header {
+  background: url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap-d4f7b37e32.png") no-repeat;
+  background-size: 7.5rem 2.6rem;
+  height: 2.6rem;
+  text-align: center;
+  color: #8ba0b6;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.3rem;
+}
+.homeCan .firstOn header h2,
+.homeCan .hotGoods header h2 {
+  font-size: 0.4rem;
+  margin-bottom: 0.3rem;
+}
+.homeCan .firstOn header .lookForAll,
+.homeCan .hotGoods header .lookForAll {
+  width: 2.4rem;
+  height: 0.56rem;
+  line-height: 0.56rem;
+  background: #d8e5f1;
+}
+.homeCan .firstOn .firstOnList,
+.homeCan .hotGoods .firstOnList {
+  height: 4.6rem;
+  width: 7.5rem;
+  overflow: hidden;
+}
+.homeCan .firstOn .firstOnList .onesCan,
+.homeCan .hotGoods .firstOnList .onesCan {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.homeCan .firstOn .firstOnList .onesCan .oneOnList,
+.homeCan .hotGoods .firstOnList .onesCan .oneOnList {
+  margin-left: 0.3rem;
+  width: 2.8rem;
+}
+.homeCan .firstOn .firstOnList .onesCan .onePic,
+.homeCan .hotGoods .firstOnList .onesCan .onePic {
+  width: 2.8rem;
+  height: 2.8rem;
+  background: #f4f4f4;
+  margin-bottom: 0.05rem;
+}
+.homeCan .firstOn .firstOnList .onesCan .onePic img,
+.homeCan .hotGoods .firstOnList .onesCan .onePic img {
+  width: 2.8rem;
+  height: 2.8rem;
+}
+.homeCan .firstOn .firstOnList .onesCan .oneText,
+.homeCan .hotGoods .firstOnList .onesCan .oneText {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.homeCan .firstOn .firstOnList .onesCan .oneText >div,
+.homeCan .hotGoods .firstOnList .onesCan .oneText >div {
+  padding: 0.07rem 0.15rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.homeCan .firstOn .firstOnList .onesCan .oneText .bgMark,
+.homeCan .hotGoods .firstOnList .onesCan .oneText .bgMark {
+  padding-left: 0.1rem;
+}
+.homeCan .hotGoods header {
+  color: #b4a078;
+  background: url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap2-d626e0b52a.png") no-repeat;
+  background-size: 7.5rem 2.6rem;
+}
+.homeCan .hotGoods header a {
+  color: #b4a078;
+}
+.homeCan .welfare {
+  width: 7.5rem;
+  height: 3rem;
+  background: url("http://yanxuan.nosdn.127.net/a3ea2d1108c94c7dece05eddf95f6df5.jpg") no-repeat;
+  background-size: 7.5rem 3rem;
+  margin-bottom: 0.5rem;
+}
+.homeCan .profTitle {
+  background: #fff;
+  height: 5.63rem;
+  margin-bottom: 0.3rem;
+}
+.homeCan .profTitle header {
+  height: 1.1rem;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.homeCan .profTitle .picText {
+  margin: 0 0.2rem;
+  height: 4.53rem;
+  padding: 0 0.3rem 0.36rem 0.3rem;
+  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+}
+.homeCan .profTitle .picText >div {
+  width: 5.75rem;
+  height: 4.17rem;
+  flex: none;
+  margin-left: 0.2rem;
+}
+.homeCan .profTitle .picText >div img {
+  width: 100%;
+  heigth: 3.22rem;
+  margin-bottom: 0.1rem;
+}
+.homeCan .profTitle .picText >div >div div {
+  margin: 0.1rem 0;
+}
+.homeCan .profTitle .picText >div .profPrice {
+  float: right;
+  color: #b4282d;
+}
+.homeCan .allGoods .goodThings {
+  background: #fff;
+  margin-bottom: 0.3rem;
+}
+.homeCan .allGoods .goodThings header {
+  height: 1.1rem;
+  text-align: center;
+  line-height: 1.1rem;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan {
+  font-size: 0;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan .goodOne {
+  padding-left: 0.2rem;
+  float: left;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan .goodOne .onePic {
+  width: 3.45rem;
+  height: 4.14rem;
+  position: relative;
+  text-align: center;
+  background: #f4f4f4;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan .goodOne .onePic .goodColor {
+  position: absolute;
+  left: 0.05rem;
+  top: 0.05rem;
+  width: 0.3rem;
+  border: 1px solid #b4a078;
+  color: #b4a078;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan .goodOne .onePic img {
+  width: 3.45rem;
+  height: 4.14rem;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan .goodOne .oneText div {
+  width: 2.8rem;
+  font-size: 0.3rem;
+  margin: 0.1rem 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan li:nth-of-type(8) .onePic {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.3rem;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan li:nth-of-type(8) .onePic span {
+  margin-bottom: 0.5rem;
+}
+.homeCan .allGoods .goodThings .goods .goodsCan li:nth-of-type(8) .onePic i {
+  font-size: 0.5rem;
+}
+.scroll-pic .swiper-pagination .my-bullet {
+/*在这里加上去的样式也有问题 ,原来是行内元素*/
+  display: inline-block;
+  margin: 0.1rem 0.1rem;
+  width: 0.35rem;
+  height: 0.06rem;
+  background: #f4f4f4;
+}
+.scroll-pic .swiper-pagination .my-bullet-active {
+  background: #b4282d;
+}

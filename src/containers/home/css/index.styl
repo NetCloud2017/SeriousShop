@@ -1,0 +1,282 @@
+@import "../../../assets/common/stylus/mixins.styl"
+.homeCan
+  background #f4f4f4
+  width 7.5rem
+  overflow hidden
+  padding-top .88rem
+  .home-nav
+    width 7.5rem
+    overflow hidden
+    background #fff
+    color #333
+    position fixed
+    top .87rem
+    left 0
+    z-index 99
+    .navList
+      display flex
+      flex-flow row nowrap
+      justify-content  center
+      li
+        border-bottom 1px solid  #fff
+        padding 0 .1rem
+        margin 0 .27rem
+        transition all .5s
+        span
+          white-space nowrap
+          font-size  .3rem
+          text-align center
+          line-height .5rem
+      .on
+        color  #b4282d
+        border-bottom 1px solid  #b4282d
+
+  .scroll-pic
+    width 7.5rem
+    height 4rem
+    .swiper-container
+      width 100%
+      height 100%
+      .swiper-wrapper
+        width 100%
+        height 100%
+        .swiper-slide
+          .good_container
+            display block
+            width 100%
+            text-align center
+            padding-bottom 10px
+            font-size 0
+            img
+              display inline-block
+              width 100%
+              height 100%
+      .swiper-pagination
+        width 5rem
+        height .08rem
+        left 50%
+        z-index 88
+        transform translate(-2.5rem ,0)
+    .g-grow{
+      display flex
+      flex-flow row nowrap
+      justify-content space-around
+      align-items center
+      width 100%
+      background #fff
+      .item{
+        height .8rem
+        line-height .8rem
+        img{
+          width .3rem
+          vertical-align middle
+        }
+        span{
+          font-size .2rem
+          white-space nowrap
+          vertical-align middle
+        }
+      }
+    }
+  .directsupply
+    margin-top 1rem
+    background #fff
+    padding .1rem .1rem
+    clearFix()
+    header
+      text-align center
+      font-size .35rem
+      height 1.2rem
+      line-height 1.2rem
+  .goodlist
+    font-size 0
+  .goodlist>div
+    float left
+    width 3.4rem
+    height 3rem
+    padding .1rem
+    font-size .3rem
+    &:nth-child(1){
+      background: #f4f4f4 url("//yanxuan.nosdn.127.net/bcca932aeb9d818dcf6d3a4804f7311b.png") no-repeat;
+      background-size: 100%;
+      margin-right .05rem
+      margin-bottom .05rem
+    }
+    &:nth-child(2){
+      background: #f4f4f4 url("//yanxuan.nosdn.127.net/dd604acce92e61616a0fa2498cf0fd35.png") no-repeat;
+      background-size: 100%;
+      margin-bottom .05rem
+    }
+    &:nth-child(3){
+      background: #f4f4f4 url("//yanxuan.nosdn.127.net/f57d460dde6e737f2bacd9f67cb73a41.png") no-repeat;
+      background-size: 100%;
+      margin-right .05rem
+    }
+    &:nth-child(4){
+      background: #f4f4f4 url("//yanxuan.nosdn.127.net/52aa744559c6fc951e63f98229f36367.png") no-repeat;
+      background-size: 100%;
+
+    }
+    div
+      margin-bottom 10px
+
+
+  .firstOn,.hotGoods
+    margin-top 10px
+    background #fff
+    header
+      background url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap-d4f7b37e32.png") no-repeat
+      background-size 7.5rem 2.6rem
+      height 2.6rem
+      text-align center
+      color #8BA0B6
+      display flex
+      flex-flow column nowrap
+      justify-content center
+      align-items center
+      margin-bottom .3rem
+      h2
+        font-size .4rem
+        margin-bottom .3rem
+      .lookForAll
+        width 2.4rem
+        height .56rem
+        line-height .56rem
+        background #D8E5F1
+
+    .firstOnList
+      height 4.6rem
+      width 7.5rem
+      overflow hidden
+      .onesCan
+        display flex
+        flex-flow row nowrap
+        .oneOnList
+          margin-left .3rem
+          width 2.8rem
+        .onePic
+          width 2.8rem
+          height 2.8rem
+          background #f4f4f4
+          margin-bottom .05rem
+          img
+            width 2.8rem
+            height 2.8rem
+        .oneText
+          display flex
+          flex-flow column nowrap
+
+          >div
+            padding .07rem .15rem
+            overflow hidden
+            white-space nowrap
+            text-overflow ellipsis
+          .bgMark
+            padding-left .1rem
+  .hotGoods
+    header
+      color  #B4A078
+      background url("//yanxuan-static.nosdn.127.net/hxm/yanxuan-wap/p/20161201/style/img/icon-normal/bitmap2-d626e0b52a.png") no-repeat
+      background-size 7.5rem 2.6rem
+      a
+        color  #B4A078
+
+  .welfare
+    width 7.5rem
+    height 3rem
+    background url("http://yanxuan.nosdn.127.net/a3ea2d1108c94c7dece05eddf95f6df5.jpg") no-repeat
+    background-size 7.5rem 3rem
+    margin-bottom .5rem
+  .profTitle
+    background #fff
+    height 5.63rem
+    margin-bottom .3rem
+    header
+      height 1.1rem
+      text-align center
+      line-height 1.1rem
+    .picText
+      margin 0 .2rem
+      height 4.53rem
+      padding 0 .3rem .36rem .3rem
+      overflow hidden
+      display flex
+      flex-flow row nowrap
+      >div
+        width 5.75rem
+        height 4.17rem
+        flex none
+        margin-left .2rem
+
+        img
+          width 100%
+          heigth 3.22rem
+          margin-bottom .1rem
+        >div div
+          margin .1rem 0
+        .profPrice
+          float right
+          color  #b4282d
+
+  .allGoods
+    .goodThings
+      background #fff
+      margin-bottom .3rem
+      header
+        height 1.1rem
+        text-align center
+        line-height 1.1rem
+      .goods
+        .goodsCan
+          font-size 0
+          clearFix()
+          .goodOne
+            padding-left .2rem
+            float left
+            .onePic
+              width 3.45rem
+              height 4.14rem
+              position relative
+              text-align center
+              background #f4f4f4
+              .goodColor
+                position absolute
+                left .05rem
+                top 0.05rem
+                width .3rem
+                border 1px solid #b4a078
+                color #b4a078
+              img
+                width 3.45rem
+                height 4.14rem
+            .oneText
+              div
+                width 2.8rem
+                font-size .3rem
+                margin .1rem 0
+                white-space nowrap
+                text-overflow ellipsis
+                overflow hidden
+          li:nth-of-type(8)
+            .onePic
+              display flex
+              flex-flow column nowrap
+              align-items center
+              justify-content center
+              font-size .3rem
+              span
+                margin-bottom .5rem
+              i
+                font-size .5rem
+
+.scroll-pic .swiper-pagination .my-bullet{
+  /*在这里加上去的样式也有问题 ,原来是行内元素*/
+  display:inline-block;
+  margin : .1rem 0.1rem ;
+  width: .35rem;
+  height: .06rem;
+  background: #f4f4f4;
+}
+.scroll-pic .swiper-pagination .my-bullet-active{
+  background: #b4282d;
+}

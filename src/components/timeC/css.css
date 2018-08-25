@@ -1,0 +1,63 @@
+.timeShop {
+  background: #fff;
+  width: 6.54rem;
+  height: 3.2rem;
+  padding: 0.3rem 0.4rem 0.3rem 0.56rem;
+  margin-bottom: 0.26rem;
+  margin-top: 0.26rem;
+  display: flex;
+  justify-content: space-between;
+}
+.timeShop .dowmTime {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+.timeShop .dowmTime h3 {
+  font-size: 0.4rem;
+  height: 1rem;
+  line-height: 1rem;
+  letter-spacing: 0.2rem;
+}
+.timeShop .dowmTime .timeTo {
+  margin-bottom: 0.3rem;
+}
+.timeShop .dowmTime .timeTo >span:nth-child(odd) {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  color: #fff;
+  background: rgba(0,0,0,0.8);
+  text-align: center;
+  font-size: 0.3rem;
+}
+.timeShop .dowmTime .timeTo span:nth-child(even) {
+  font-size: 0.3rem;
+  width: 0.15rem;
+  height: 0.46rem;
+  display: inline-block;
+}
+.timeShop .timePro {
+  position: relative;
+  background: url("http://yanxuan.nosdn.127.net/2f2c1e633c491d3042b191956939aadf.png") no-repeat;
+  background-size: 2rem 2rem;
+}
+.timeShop .timePro div {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background: rgba(244,143,24,0.95);
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.timeShop .timePro div span {
+  color: #fff;
+  font-size: 0.2rem;
+  margin: 0.05rem 0;
+}
